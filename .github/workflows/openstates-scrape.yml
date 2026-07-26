@@ -69,7 +69,7 @@ jobs:
     # template default the next time apply.py's fully_override_dirs pushed
     # the shared template out. Routing it through config instead means a
     # rollout can't quietly undo it again.
-    timeout-minutes: 720
+    timeout-minutes: 1440
     permissions:
       contents: write
 
